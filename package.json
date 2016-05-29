@@ -1,0 +1,37 @@
+{
+  "name": "sails-hook-valichain",
+  "version": "1.0.0",
+  "description": "Sails hook for validating requests using valichain.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/expedit85/sails-hook-valichain.git"
+  },
+  "keywords": [
+    "sails",
+    "sails-hook",
+    "sails.js",
+    "hook",
+    "validation",
+    "validator",
+    "valichain",
+    "request",
+    "request-validator",
+    "request-validation"
+  ],
+  "author": "Cristiano Expedito <expedit@gmail.com>",
+  "sails": {
+    "isHook": true
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/expedit85/sails-hook-valichain/issues"
+  },
+  "homepage": "https://github.com/expedit85/sails-hook-valichain#README.md",
+  "dependencies": {
+    "valichain": "^1.0.3"
+  }
+}
