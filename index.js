@@ -1,5 +1,7 @@
 var Valichain = require('valichain');
 
+global.Valichain = Valichain;
+
 /*
 var params = req.valichain(rules, req.allParams());
 if (!params) {
