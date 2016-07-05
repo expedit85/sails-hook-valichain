@@ -1,7 +1,5 @@
 var Valichain = require('valichain');
 
-global.Valichain = Valichain;
-
 /*
 var params = req.valichain(rules, req.allParams());
 if (!params) {
@@ -20,6 +18,9 @@ function VVE(rules) {
 
 
 module.exports = function(sails) {
+
+	if (sails.config.globals && sails.config.globals.Valichain === true)
+		global.Valichain = Valichain;
 
   return {
 
